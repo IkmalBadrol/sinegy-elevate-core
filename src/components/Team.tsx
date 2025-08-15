@@ -1,28 +1,28 @@
 import { Linkedin, Twitter } from "lucide-react";
-import teamCeo from "@/assets/team-ceo.jpg";
-import teamCto from "@/assets/team-cto.jpg";
-import teamCompliance from "@/assets/team-compliance.jpg";
+import teamCeo from "@/assets/kel.jpg";
+import teamCto from "@/assets/jack.jpg";
+import teamCompliance from "@/assets/shen.jpg";
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "Sarah Chen",
+      name: "Kelvyn",
       role: "Chief Executive Officer",
       image: teamCeo,
-      bio: "Former Goldman Sachs VP with 15+ years in financial markets. Sarah leads Sinegy's vision for the future of digital finance.",
+      bio: "Former Goldman Sachs VP with 15+ years in financial markets. Kelvyn leads Sinegy's vision for the future of digital finance.",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Michael Rodriguez",
-      role: "Chief Technology Officer",
+      name: "Jack Chan",
+      role: "DAX Lead",
       image: teamCto,
-      bio: "Ex-Google engineer and blockchain pioneer. Michael oversees our cutting-edge trading infrastructure and security systems.",
+      bio: "Ex-Google engineer and blockchain pioneer. Jack oversees our cutting-edge trading infrastructure and security systems.",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Dr. Amanda Foster",
+      name: "Shen-Hoei Yeoh",
       role: "Chief Compliance Officer",
       image: teamCompliance,
       bio: "Former SEC regulatory expert ensuring Sinegy meets the highest compliance standards across all jurisdictions.",

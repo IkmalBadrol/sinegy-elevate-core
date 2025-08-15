@@ -51,8 +51,8 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-accent mt-1" />
                 <div>
                   <h4 className="font-semibold text-foreground">Headquarters</h4>
-                  <p className="text-muted-foreground">123 Financial District</p>
-                  <p className="text-muted-foreground">New York, NY 10004</p>
+                  <p className="text-muted-foreground">Unit 3.2, Wisma Leader, 8, Jalan Larut,</p>
+                  <p className="text-muted-foreground">10050 George Town, Penang</p>
                 </div>
               </div>
 
@@ -72,7 +72,11 @@ const Contact = () => {
                 For institutional inquiries, custom solutions, or high-volume trading needs, 
                 please contact our dedicated institutional team.
               </p>
-              <Button variant="hero" size="sm">
+              <Button 
+                variant="hero" 
+                size="sm"
+                onClick={() => window.open("https://sinegyexchange.zendesk.com/hc/en-us/requests/new", "_blank")}
+              >
                 Contact Institutional Team
               </Button>
             </div>
