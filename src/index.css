@@ -9,8 +9,8 @@
 @layer base {
   :root {
     /* Core Brand Colors */
-    --background: 0 0% 100%;
-    --foreground: 225 25% 15%;
+    --background: 207 22% 15%;
+    --foreground: 0 0% 95%;
 
     /* Primary Brand - Dark Blue Gray */
     --primary: 206 22% 14%;
@@ -25,18 +25,18 @@
     --accent-dark: 67 70% 55%;
 
     /* Secondary - Professional Gray */
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 25% 25%;
+    --secondary: 207 22% 20%;
+    --secondary-foreground: 0 0% 85%;
 
     /* Surface Colors */
-    --card: 0 0% 100%;
-    --card-foreground: 225 25% 15%;
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 13% 46%;
+    --card: 207 22% 18%;
+    --card-foreground: 0 0% 90%;
+    --muted: 207 22% 20%;
+    --muted-foreground: 0 0% 65%;
 
     /* Interactive States */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
+    --border: 207 22% 25%;
+    --input: 207 22% 22%;
     --ring: 206 22% 14%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
